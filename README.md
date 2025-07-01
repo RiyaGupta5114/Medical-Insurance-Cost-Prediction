@@ -17,20 +17,29 @@ The goal is to estimate an individual’s insurance cost based on health and dem
 # Model Evaluation
 
 MAE: ~2500
+
 RMSE: ~3700
+
 R² Score: ~0.85
+
 Evaluation may vary depending on the data split and the random state.
 
 # Tools & Technologies
 
 Python, NumPy, Pandas, Matplotlib
+
 Scikit-learn (RandomForestRegressor, StandardScaler)
+
 Flask (for backend deployment)
+
 HTML (for frontend input form)
 
 # Future Enhancements
 
 Improve UI with Bootstrap or React
+
 Deploy the app on platforms like Heroku or Render
+
 Implement form validation and error handling
+
 Add login functionality and database integration
